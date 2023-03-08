@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/fluent/48/000000/like.png"
+      type="image/png"
+    />
+    <title>Happy Women's Day</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body onload="myFunction() ">
+   <script>
+      function myFunction() {
+        alert("Chúc mẹ ngày 8/3 luôn luôn vui vẻ. Hãy nhấn vào màn hình để xuất hiện bất ngờ");
+      }
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+      </script>
+      
+    <embed src="./assets/mp3/song.mp3" loop="true" autostart="true" width="2" height="0">
+    <img
+      src="assets\img\right.png"
+      alt="image-top-right"
+      class="top-right-decoration"
+    />
+    <img
+      src="assets\img\left.png"
+      alt="image-top-left"
+      class="top-left-decoration"
+    />
+
+    <div class="container" onClick="play()" style="cursor: pointer;">
+      <div class="row d-flex justify-content-center">
+         
+        <div class="col-md-7 col-xs-10 col-lg-7 col-sm-12 text-center">
+        
+         <br />
+          <div class="title">
+            <h1>Kính gửi mẹ</h1>
+            <h2>
+              Kính chúc mẹ một ngày 8/3 tuyệt vời và hạnh phúc nhất. Cảm ơn mẹ đã luôn ủng hộ và chia sẻ những thông tin tốt nhất với con. Mẹ là người luôn làm tất cả những điều tốt nhất để nuôi dạy con, và con đã có thể trở thành người lớn hơn hẳn bởi sự ủng hộ của mẹ. Con muốn gửi lời cảm ơn đến mẹ vào ngày 8/3 này và chúc mẹ có một cuộc sống hạnh phúc bên những người thân yêu nhất. Con yêu mẹ vô cùng và chúc mẹ một ngày 8/3 thật tuyệt vời.
+            </h2>
+            <h2><a href="happy.html" style="text-decoration: none; color: #000000;">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤĐiều bất ngờ nằm ở đây</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio controls loop class="music" id="audio">
+      <source src="./assets/mp3/song.mp3" type="audio/mpeg">
+   </audio>
+    <p class="sender">
+      Yêu mẹ nhiều <br />
+      Cao Thanh Hải (Creamlan)
+    </p>
+  </body>
+</html>
